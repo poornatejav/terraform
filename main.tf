@@ -1,8 +1,8 @@
-provider "aws" {
-  region                   = "us-east-1"
-  shared_credentials_files = ["~/.aws/credentials"]
-  profile                  = "Poorna"
-}
+# provider "aws" {
+#   region                   = "us-east-1"
+#   shared_credentials_files = ["~/.aws/credentials"]
+#   profile                  = "Poorna"
+# }
 
 resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/16"
